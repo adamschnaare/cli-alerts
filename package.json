@@ -1,0 +1,33 @@
+{
+	"name": "cli-alerts",
+	"version": "0.0.1",
+	"description": "Cross-platform CLI alerts with colors & colored symbols for success, info, warning, error.",
+	"license": "MIT",
+	"repository": "adamschnaare/cli-alerts",
+	"main": "index.js",
+	"type": "module",
+	"files": [
+		"index.js"
+	],
+	"author": {
+		"name": "Adam Schnaare",
+		"email": "adam.schnaare@spinuptech.com",
+		"url": "https://www.linkedin.com/in/adamschnaare/"
+	},
+	"devDependencies": {
+		"prettier": "^2.4.0"
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"log-symbols": "^5.0.0"
+	},
+	"keywords": [
+		"cli-alerts",
+		"Adam Schnaare",
+		"adamschnaare"
+	],
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	}
+}
