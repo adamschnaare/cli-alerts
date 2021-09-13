@@ -1,11 +1,27 @@
-# `npx cli-alerts`
+# `cli-alerts`
 
-> Get to know Adam Schnaare using your command line with Node.js
+> Cross-platform CLI alerts with colors & colored symbols for success, info, warning, error.
 
 ## Usage
 
-TO use this CLI run the following command:
+Add to package with npm
 
 ```sh
-npx schnaare
+npm i cli-alerts
 ```
+
+Use in package (ES6)
+
+```js
+import alerts from 'cli-alerts'
+
+alerts({
+    type: 'success',
+    msg: `This is a success message`,
+})
+```
+
+## Options
+- `type`: string - (success, warning, info, error)
+- `msg`: string - message for alert
+- `name`: string - name for alert
